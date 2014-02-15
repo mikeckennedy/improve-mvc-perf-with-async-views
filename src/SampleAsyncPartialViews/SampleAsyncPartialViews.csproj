@@ -164,13 +164,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Images\indicator.white.gif" />
     <Content Include="JS\site.js" />
-    <None Include="Properties\PublishProfiles\File.pubxml" />
-    <None Include="Properties\PublishProfiles\improve-mvc-perf-with-async-views.pubxml" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.0.js" />
     <Content Include="Scripts\jquery-2.1.0.min.js" />
     <Content Include="Scripts\jquery-2.1.0.min.map" />
-    <Content Include="README.jQuery.vsdoc.txt" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
