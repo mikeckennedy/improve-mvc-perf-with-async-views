@@ -5,11 +5,11 @@ This sample accompanies my
 [article on my blog](http://blog.michaelckennedy.net/2012/11/13/improve-perceived-performance-of-asp-net-mvc-websites-with-async-partialviews/).
 
 See the live example here:
-[http://improve-mvc-perf-with-async-views.azurewebsites.net/](http://improve-mvc-perf-with-async-views.azurewebsites.net/)
+[http://improve-mvc-perf-with-async-views.azurewebsites.net/](http://improve-mvc-perf-with-async-views.azurewebsites.net/async)
 
-Imagine you’re building an ASP.NET MVC website which has some 
-performance problems. I’m sure this would never actually happen 
-to you, but imagine you’re facing this problem just for the sake 
+Imagine youï¿½re building an ASP.NET MVC website which has some 
+performance problems. Iï¿½m sure this would never actually happen 
+to you, but imagine youï¿½re facing this problem just for the sake 
 of exploring the possibilities. :-)
 
 Now, your web app is mostly fast and responsive, but there are 
