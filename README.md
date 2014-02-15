@@ -8,8 +8,8 @@ See the live example here:
 [http://improve-mvc-perf-with-async-views.azurewebsites.net/](http://improve-mvc-perf-with-async-views.azurewebsites.net/async)
 
 Imagine you�re building an ASP.NET MVC website which has some 
-performance problems. I�m sure this would never actually happen 
-to you, but imagine you�re facing this problem just for the sake 
+performance problems. I'm sure this would never actually happen 
+to you, but imagine you're facing this problem just for the sake 
 of exploring the possibilities. :-)
 
 Now, your web app is mostly fast and responsive, but there are 
