@@ -1,0 +1,138 @@
+﻿a, a:visited {
+	color: blue;
+}
+
+a.current {
+	color: gray;
+	text-decoration: none;
+}
+
+.userDetails,
+.news,
+.popular {
+	vertical-align: top;
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 460px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.news {
+	width: 250px;
+	float: right;
+}
+.news .title {
+	font-size: 14px;
+}
+
+.title {
+    font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	/*border-bottom: 1px solid gray;*/
+	line-height: 1.2em;
+}
+.partialContents {}
+
+header {
+    background-color: rgb(0, 0, 106);
+    color: rgb(231, 231, 231);
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+    z-index: 20;
+}
+
+footer a {
+    color: #555;
+}
+footer {
+    color: #555;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content {
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    -webkit-box-shadow:  0px 1px 3px 5px rgba(0, 0, 0, .4);
+    box-shadow:  0px 1px 3px 5px rgba(0, 0, 0, .4);
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: rgb(231, 231, 231);
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.nav {}

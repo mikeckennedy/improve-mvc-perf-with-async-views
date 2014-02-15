@@ -1,0 +1,33 @@
+﻿
+@model SampleAsyncPartialViews.ViewModels.HomeViewModel
+@{
+    ViewBag.Title = "Async Home Page";
+	ViewBag.IsHome = false;
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    Below are three sections. Initially they are all computed during the request. We are moving
+    the slow ones to their own actions with partial views and loading them via JavaScript asynchronously.
+</p>
+
+<div class="news">
+    <h3>News (slow)</h3>
+	<div class="partialContents" data-url="/async/news">
+		<img src="~/Images/indicator.white.gif" /> Loading ... 
+	</div>
+</div>
+<div class="userDetails">
+    <h3>Your Details</h3>
+    @Html.Partial("DetailsControl", Model.UserDetails)
+    
+</div>
+<div class="popular">
+	<h3>Most Popular (slow)</h3>
+	<div class="partialContents"  data-url="/async/popular">
+        <img src="~/Images/indicator.white.gif" /> Loading ... 
+    </div>
+</div>
+
+

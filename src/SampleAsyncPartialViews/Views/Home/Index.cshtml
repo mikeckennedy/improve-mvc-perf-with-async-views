@@ -1,0 +1,26 @@
+﻿
+@model SampleAsyncPartialViews.ViewModels.HomeViewModel
+@{
+    ViewBag.Title = "Synchrounous Home Page";
+	ViewBag.IsHome = true;
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    Below are three sections. Initially they are all computed during the request. We are moving
+    the slow ones to their own actions with partial views and loading them via JavaScript asynchronously.
+</p>
+
+<div class="news">
+    <h3>News (slow)</h3>
+    @Html.Partial("NewsControl", Model.NewsItems)
+</div>
+<div class="userDetails">
+    <h3>Your Details</h3>
+    @Html.Partial("DetailsControl", Model.UserDetails)
+</div>
+<div class="popular">
+    <h3>Most Popular (slow)</h3>
+    @Html.Partial("PopularControl", Model.MostPopular)
+</div>
